@@ -11,8 +11,19 @@ import img6 from './assets/a6.webp';
 import img7 from './assets/a7.webp';
 import img8 from './assets/a10.webp';
 import './App.css';
+import styled from 'styled-components';
 
 const images = [img1, img2, img3, img4, img5, img6, img7, img8];
+const Container = styled.div`
+  width: 80%;
+  margin: auto;
+
+  @media (max-width: 600px) {
+    width: 100%;
+    padding: 10px;
+  }
+`;
+
 
 function App() {
 	const [phrase, setPhrase] = useState(randomItem(phrases));
