@@ -1,19 +1,10 @@
 .container {
-  display: grid;
-  place-content: center;
-  min-height: 100dvh;
-  width: 100vw;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 40px;
-  box-sizing: border-box;
-}
-
-@media (max-width: 600px) {
-  .container {
-    padding: 16px;
-  }
+	display: grid;
+	place-content: center;
+	min-height: 100dvh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .card {
